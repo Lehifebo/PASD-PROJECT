@@ -1,9 +1,9 @@
 import { Inject, Injectable } from "@nestjs/common";
 import axios from "axios";
 import { Model } from "mongoose";
-import { Create_DeliveryDto } from "src/delivery_logic/dto/create_delivery";
-import { Delivery } from "src/delivery_logic/interfaces/delivery.interface";
-import { Package } from "src/delivery_logic/interfaces/package.interface";
+import { Create_DeliveryDto } from "src/d_logic/dto/create_delivery";
+import { Delivery } from "src/d_logic/interfaces/delivery.interface";
+import { Package } from "src/d_logic/interfaces/package.interface";
 import { WarehouseWorkerService } from "src/warehouse_worker/warehouse_worker.service";
 
 @Injectable()

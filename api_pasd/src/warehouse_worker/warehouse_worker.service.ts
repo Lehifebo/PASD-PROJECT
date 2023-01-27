@@ -1,8 +1,8 @@
 import { Inject, Injectable } from '@nestjs/common';
 import axios from 'axios';
 import { Model } from 'mongoose';
-import { Delivery } from 'src/delivery_logic/interfaces/delivery.interface';
-import { Package } from 'src/delivery_logic/interfaces/package.interface';
+import { Delivery } from 'src/d_logic/interfaces/delivery.interface';
+import { Package } from 'src/d_logic/interfaces/package.interface';
 
 
 @Injectable()

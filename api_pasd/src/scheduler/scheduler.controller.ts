@@ -1,5 +1,5 @@
 import { Body, Controller, Patch, Post,Get } from "@nestjs/common";
-import { Create_DeliveryDto } from "src/delivery_logic/dto/create_delivery";
+import { Create_DeliveryDto } from "src/d_logic/dto/create_delivery";
 import { schedulerService } from "./scheduler.service";
 
 @Controller('scheduler')
